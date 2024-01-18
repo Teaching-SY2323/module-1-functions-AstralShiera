@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "EX0",
+      "setup": "",
+      "run": "make test0",
+      "input": "1 1",
+      "output": "2",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Ex1",
+      "setup": "",
+      "run": "make test1",
+      "input": "1.5 1.5",
+      "output": "3",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Ex3",
+      "setup": "",
+      "run": "make test3",
+      "input": "ew 2",
+      "output": "2",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "EX4",
+      "setup": "",
+      "run": "make test4",
+      "input": "32 2.3",
+      "output": "34.3",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "EX5",
+      "setup": "",
+      "run": "make test5",
+      "input": "a a",
+      "output": "Invalid",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    }
+  ]
+}
